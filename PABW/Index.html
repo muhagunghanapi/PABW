@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Industrial Services Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo-container">
+      <img src="Logo.jpg" alt="Logo Industrial Services Pro" class="logo-img">
+      <h1 class="logo-text">Industrial Services Pro</h1>
+    </div>
+    <nav class="menu">
+      <a href="#" id="nav-beranda">BERANDA</a>
+      <a href="#" id="nav-jasa">TEMUKAN JASA</a>
+      <a href="#" id="nav-mitra">PROFIL MITRA</a>
+    </nav>
+    <div class="auth">
+      <a href="#" class="signup" id="btn-signup">Sign Up</a>
+      <a href="#" class="login" id="btn-login">Login</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Membantu Temukan Jasa Industrial <br> Terbaik di Sukabumi.</h2>
+    <p>
+      Industrial Services Pro hadir sebagai mitra strategis bagi perusahaan Anda menghadirkan solusi industri terpadu untuk meningkatkan efisiensi, produktivitas, dan daya saing di era digital.
+    </p>
+    <div class="search-box">
+      <input type="text" placeholder="Ketik Nama Jasa Atau Perusahaan..." />
+      <button id="btn-cari">Cari</button>
+    </div>
+  </section>
+
+  <!-- Kategori Jasa -->
+  <section class="kategori">
+    <h3>Telusuri Kategori Jasa</h3>
+    <p>Industrial Services Pro hadir menjadi solusi bagi kamu</p>
+    <div class="kategori-container">
+      <div class="card" data-category="perawatan">
+        <div class="icon">🛠️</div>
+        <p>Perawatan Mesin</p>
+      </div>
+      <div class="card" data-category="kalibrasi">
+        <div class="icon">⚙️</div>
+        <p>Kalibrasi Alat</p>
+      </div>
+      <div class="card" data-category="limbah">
+        <div class="icon">♻️</div>
+        <p>Pengelolaan Limbah</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Penyedia Jasa -->
+  <section class="penyedia">
+    <h3>Penyediaan Jasa Terpercaya</h3>
+    <div class="penyedia-container">
+      <div class="penyedia-card" data-mitra="pilar">
+        <div class="icon">👨‍🔧</div>
+        <h4>CV. Pilar Teknik Perkasa</h4>
+        <p>Melayani jasa services dan perbaikan mesin industri produksi garmen. Berpengalaman...</p>
+      </div>
+      <div class="penyedia-card" data-mitra="kreatif">
+        <div class="icon">👨‍🔧</div>
+        <h4>CV. Kreatif Citra Indonesia</h4>
+        <p>Spesialis jasa kalibrasi alat industri dan maintenance profesional...</p>
+      </div>
+      <div class="penyedia-card" data-mitra="sinergi">
+        <div class="icon">👨‍🔧</div>
+        <h4>CV. Sinergi Mitra Utama</h4>
+        <p>Penyedia solusi pengelolaan limbah industri dengan teknologi ramah lingkungan...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h3>Siap Mengembangkan Usaha Anda?</h3>
+    <p>Daftarkan usaha Anda dan jangkau lebih banyak klien atau temukan jasa yang Anda butuhkan sekarang!</p>
+    <div class="cta-buttons">
+      <button class="primary" id="btn-cari-jasa">Cari Jasa Sekarang</button>
+      <button class="secondary" id="btn-daftar-usaha">Daftarkan Usaha Anda</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    Copyright ©2025 All rights reserved by:
+    <span>Industrial Services Pro</span>
+  </footer>
+
+  <!-- ===== MODAL (popup) ===== -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

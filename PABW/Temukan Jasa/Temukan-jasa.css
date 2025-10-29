@@ -1,0 +1,144 @@
+/* Halaman Temukan Jasa (Disesuaikan seperti WA0010) */
+
+/* Bagian Search */
+.search-section {
+  background-color: #1e3a8a; /* biru tua solid */
+  color: white;
+  text-align: center;
+  padding: 70px 20px 60px 20px;
+}
+
+.search-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.search-box.full {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-box.full input {
+  width: 60%;
+  padding: 14px 18px;
+  font-size: 1rem;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+}
+
+.search-box.full button {
+  padding: 14px 25px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box.full button:hover {
+  background-color: #1e40af;
+}
+
+/* Daftar Vendor */
+.vendor-list {
+  background: linear-gradient(to bottom, #e0f2fe, #f1f5f9); /* gradasi biru muda */
+  color: #1e3a8a;
+  padding: 70px 20px 90px 20px;
+  text-align: center;
+}
+
+.vendor-list h3 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.vendor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 35px;
+  justify-items: center;
+}
+
+/* Kartu Vendor */
+.vendor-card {
+  background: linear-gradient(to bottom, #e2e8f0, #cbd5e1); /* biru keabu-abuan */
+  border: 2px solid #1e3a8a;
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.vendor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
+}
+
+.vendor-card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.vendor-card h4 {
+  margin-top: 15px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+.vendor-card .alamat {
+  font-size: 0.9rem;
+  color: #334155;
+  margin-top: 5px;
+}
+
+.vendor-card .rating {
+  color: #facc15;
+  font-size: 0.9rem;
+  margin: 8px 0 12px 0;
+}
+
+/* Tombol Profil */
+.profil-btn {
+  background-color: #1e3a8a; /* biru tua */
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.profil-btn:hover {
+  background-color: #172554;
+}
+
+/* Tombol Muat Lebih Banyak */
+.load-more {
+  margin-top: 60px;
+}
+
+.load-more button {
+  background-color: #e2e8f0; /* abu muda */
+  color: #1e3a8a;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.load-more button:hover {
+  background-color: #cbd5e1;
+}
